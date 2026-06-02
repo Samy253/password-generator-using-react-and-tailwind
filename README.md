@@ -1,16 +1,26 @@
-# React + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive password generator built with **React** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This app generates secure random passwords instantly based on your preferences. The password regenerates automatically whenever you change any setting.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Generates a random password instantly on load
+- Adjustable password length using a slider (6–15 characters)
+- Toggle numbers on or off with checkbox
+- Toggle special characters on or off with checkbox
+- Select length by dragging slider
+- One-click copy to clipboard
+- Copy button turns green with a ✔ to confirm the copy
+- Resets the confirmation tick automatically when a new password is generated
 
-## Expanding the ESLint configuration
+## Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** — UI and state management using `useState`, `useCallback`, `useEffect`, and `useRef` hooks
+- **Tailwind CSS** — styling and layout
+- **Vite** — build tool and dev server
+
+- check it out [here]()
