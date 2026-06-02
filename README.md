@@ -23,4 +23,4 @@ This app generates secure random passwords instantly based on your preferences. 
 - **Tailwind CSS** — styling and layout
 - **Vite** — build tool and dev server
 
-- check it out [here]()
+- check it out [here](https://samy253.github.io/password-generator-using-react-and-tailwind/)
